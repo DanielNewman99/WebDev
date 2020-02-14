@@ -1,12 +1,4 @@
-<?
-
-//include "coninfo.php"; 
-
-//$query="INSERT INTO customers(FirstName,Surname,Email, PhoneNumber, EmergancyContactName, EmergancyNumber, Username,Password) VALUES('$fn','$sn','$email','$phonenum','$econtact','$ephonenum','$username','$password')";
-
-//$result=mysqli_query($link,$query);
-
-session_start();?>
+<?session_start();?>
 <?
 
 

@@ -80,6 +80,13 @@
 <section class="jumbotron"></section>
 
 <div class="center">
+<?php 
+$dsn = 'mysql:host=localhost;dbname=porttalbotrockclimbing';
+$dbUName = "root";
+$dbPassword = "";
+$dbh = new PDO($dsn, $dbUName, $dbPassword);
+?>
+
 <h1>Please log in:</h1>
 <form action="WebDevLoginForm.php" method="post">
 Username: <input type="text" name="un"><br><br>
@@ -87,6 +94,8 @@ Password: <input type="password" name="pw"><br><br>
 
 <input type="submit" value="Log In">
 </form>
+
+
 <form action="WebDevSignup.php">
 <p> No account? sign up here! </p>
 <input type="submit" value="Sign Up">
