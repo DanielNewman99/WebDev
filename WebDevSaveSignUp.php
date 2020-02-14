@@ -18,7 +18,7 @@ $password=$_POST["password"];
 
 
 $stmt = $dbh->prepare("INSERT INTO customers(CustomerID, FirstName,Surname,Email, PhoneNumber, EmergancyContactName, EmergancyNumber, Username,Password) VALUES  
-                     (NULL, :fn,:sn, :email, :username,:phonenum,:econtact, :ephonenum, :password)");
+                     (NULL, :fn,:sn, :email,:phonenum,:econtact, :ephonenum, :username, :password)");
 
 $stmt->bindParam(':fn', $fn);
 $stmt->bindParam(':sn', $sn);

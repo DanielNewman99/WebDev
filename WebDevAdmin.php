@@ -91,38 +91,15 @@
 
 
 
+
+
 <section class="jumbotron"></section>
-
-<form action="WebDevAdmin">
-<input type="submit" value="Admin button">
-</form>
-
+<?include "coninfo.php";?>
 
 <div class="center">
-<?php 
-$dsn = 'mysql:host=localhost;dbname=porttalbotrockclimbing';
-$dbUName = "root";
-$dbPassword = "";
-$dbh = new PDO($dsn, $dbUName, $dbPassword);
-?>
 
-
-
-<form action="WebDevSubmitReview.php" method="post"> 
-<h1>Port Talbot Rock Climbing Reviews</h1> <br>
-
-<?if(@$_SESSION["Username"]!="")//if there's something in there, user is logged in
+<?if(@$_SESSION["Username"]=="Admin")
 			{?>
-Screen Name: <input type="text" name="scn"><br><br>
-Review: <input type="text" name="rev"><br><br>
-
-<input type="submit" value="Send">
-</form>
-
-
-<p>Here you are welcome to send in reviews about Port Talbot Rock Climbing. Please take into consideration the following rules: No swearing, no inciting hate or harrasment.</p>
-<br><br>
-
 <?php 
 $dsn = 'mysql:host=localhost;dbname=porttalbotrockclimbing';
 $dbUName = "root";
@@ -153,28 +130,39 @@ foreach($dbh->query('SELECT * FROM reviews ORDER BY TimeStamp DESC') as $record)
 			echo $record["Review"]."<br><br>"; 
 		?>
 		</div>
+		
+		<form action="WebDevDeleteReview.php" method="post">
+		<input type="hidden" value="<?echo $record["ReviewID"]?>" name ="id"> 
+		<input type="submit" value="Delete">
+		</form>
 		<?
     	
 }
-
 ?>
-		<?
-		}
-
-
+	
+	
+	<?}
+		
 				else
 				{ ?>
-				You Must be logged in to access this feature.
-				<br><br><a href="WebDevLogin.php">Log in now!</a>
-				<? } 
-
-
-?>
+				Only Admins may view this page.
+				
+				<? } ?> <br><br> 
+		
+			
+			
 
 </div>
 
 
-
+<?if(@$_SESSION["Username"]=="Admin")
+			{?>
+<form action="WebDevSearchResults.php" method="post">
+<h3>Search Users by Username</h3>
+Search: <input type="text" name="un"><br><br>
+<input type="submit" value="Search">
+</form>
+			<?}?>
 
 
 
@@ -189,5 +177,3 @@ foreach($dbh->query('SELECT * FROM reviews ORDER BY TimeStamp DESC') as $record)
 
 
 </body>
-
-
