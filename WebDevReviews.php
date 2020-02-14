@@ -95,11 +95,16 @@
 
 
 <div class="center">
+<?php 
+$dsn = 'mysql:host=localhost;dbname=porttalbotrockclimbing';
+$dbUName = "root";
+$dbPassword = "";
+$dbh = new PDO($dsn, $dbUName, $dbPassword);
+?>
 
 
 
-<form action="WebDevSubmitReview.php" method="post">
-
+<form action="WebDevSubmitReview.php" method="post"> 
 <h1>Port Talbot Rock Climbing Reviews</h1> <br>
 
 <?if(@$_SESSION["Username"]!="")//if there's something in there, user is logged in
@@ -114,40 +119,45 @@ Review: <input type="text" name="rev"><br><br>
 <p>Here you are welcome to send in reviews about Port Talbot Rock Climbing. Please take into consideration the following rules: No swearing, no inciting hate or harrasment.</p>
 <br><br>
 
-<? include "coninfo.php"; ?>
+<?php 
+$dsn = 'mysql:host=localhost;dbname=porttalbotrockclimbing';
+$dbUName = "root";
+$dbPassword = "";
+$dbh = new PDO($dsn, $dbUName, $dbPassword);
+?>
+
 <?
-$query="SELECT * FROM reviews ORDER BY TimeStamp DESC"; 
-
-$result = mysqli_query($link,$query) or die("Could not execute query");
-
-
-
-
-	while ($r=mysqli_fetch_array($result)) //get row
-		{ ?>
-		<div class="styletime">
+foreach($dbh->query('SELECT * FROM reviews ORDER BY TimeStamp DESC') as $record)
+{
+	?>
+	<div class="styletime">
 		<?
-			echo $r["ReviewID"]."<br>"; 
+			echo $record["ReviewID"]."<br>"; 
 		?>
 		<div class="stylename">
 		<?
-			echo $r["ScreenName"]."<br>"; 
+			echo $record["ScreenName"]."<br>"; 
 		?>
 		</div>
 		<div class="styletime">
 		<?
-			echo $r["TimeStamp"]."<br>"; 
+			echo $record["TimeStamp"]."<br>"; 
 		?>
 		</div>
 		<div class="stylereview">
 		<?
-			echo $r["Review"]."<br><br>"; 
+			echo $record["Review"]."<br><br>"; 
 		?>
 		</div>
 		<?
+    	
+}
+
+?>
+		<?
 		}
 
-}
+
 				else
 				{ ?>
 				You Must be logged in to access this feature.
