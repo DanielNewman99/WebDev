@@ -45,7 +45,7 @@
 }
 
 .jumbotron {
-    background: url(../images/PTRCimage3.jpg) no-repeat #242830;
+    background: url(../images/PTRCimage7.jpg) no-repeat #242830;
     background-position: center center;
     background-size: 100% 100%;
     min-height: 550px;
@@ -116,7 +116,7 @@ Password:<input type="text" name="password"><br><br>
 </form>
 
 
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst.</p>
+<p> We will not use your personal information for unsolicited marketing. This information is kept purely to have transaction confirmation and so that we always have emergency contact details from you in the event of an emergency. </p>
 
 </div>
 

@@ -101,8 +101,7 @@ Password: <input type="password" name="pw"><br><br>
 <input type="submit" value="Sign Up">
 <form>
 
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst.</p>
-
+<p> Log in for exclusive features such as access to our Rock Climbing building and the ability to post reviews of your experiences in our rock climbing facilities. <p>
 </div>
 
 

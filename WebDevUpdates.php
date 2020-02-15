@@ -45,12 +45,18 @@
 }
 
 .jumbotron {
-    background: url(../images/PTRCimage3.jpg) no-repeat #242830;
+    background: url(../images/PTRCimage6.jpg) no-repeat #242830;
     background-position: center center;
     background-size: 100% 100%;
     min-height: 550px;
 }
 
+.jumbotron2 {
+    background: url(../images/PTRCimage5.jpg) no-repeat #242830;
+    background-position: center center;
+    background-size: 100% 100%;
+    min-height: 550px;
+}
 
 .center {
 	text-align: center;
@@ -80,19 +86,16 @@
 <div class="center">
 
 <h1> News </h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst.</p>
+<p>Here you can find updates to the courses here at Port Talbot Rock Climbing</p>
 
 <section class="jumbotron"></section>
-<h1>Update</h1>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst.</p>
+<h1>13/02/20 Update</h1>
+<p> Hey there competitors! You'll be happy to know we've just introduced a few new courses specifically for you! Level 5 difficulty and higher courses have just been added to the north side of the rock climbing building. Have fun! <p>
 
-<section class="jumbotron"></section>
-<h1>update</h1>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst.</p>
+<section class="jumbotron2"></section>
+<h1>5/02/20 Update</h1>
+<p> Hey there beginners! You'll be happy to know we've just introduced a few new courses specifically for you! Level 1 difficulty and higher courses have just been added to the east side of the rock climbing building. Have fun! <p>
 
-<section class="jumbotron"></section>
-<h1>Updates</h1>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst.</p>
 
 
 

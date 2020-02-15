@@ -113,11 +113,11 @@
 <h1> What we do:</h1>
 
 <section class="jumbotron2"></section>
-<h1>Here's a title</h1>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst. </p>
+<h1>Port Talbot Rock Climbing</h1>
+<p> Welcome to the Port Talbot Rock Climbing website. Here you can find the latest news, reviews and much more about Port Talbot Rock Climbing in general. </p>
 <section class="jumbotron3"></section>
-<h1>Here's a title</h1>
-<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst.</p>
+<h1>What equipment do I need?</h1>
+<P>You'll be happy to know that we provide most of the essentials for you. Climbing shoes are provided by us, no need for harnesses as our courses only travel about 5 persons length high. The only thing you could need is chaulk to protect your hands, we sell this for £6.99</p>
 </div>
 
 <div class="footer">

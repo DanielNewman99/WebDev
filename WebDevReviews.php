@@ -45,7 +45,7 @@
 }
 
 .jumbotron {
-    background: url(../images/PTRCimage3.jpg) no-repeat #242830;
+    background: url(../images/PTRCimage4.jpg) no-repeat #242830;
     background-position: center center;
     background-size: 100% 100%;
     min-height: 550px;

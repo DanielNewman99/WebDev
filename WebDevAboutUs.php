@@ -45,7 +45,7 @@
 }
 
 .jumbotron {
-    background: url(../images/PTRCimage3.jpg) no-repeat #242830;
+    background: url(../images/PTRCimage7.jpg) no-repeat #242830;
     background-position: center center;
     background-size: 100% 100%;
     min-height: 550px;
@@ -83,7 +83,7 @@
 
 <div class="center">
 <h1>About Us</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac velit nisi. Maecenas mauris quam, interdum vitae aliquet quis, hendrerit a massa. Ut ullamcorper lobortis turpis vel accumsan. Vivamus ut urna volutpat dui pellentesque pulvinar. Nulla volutpat enim non diam elementum aliquet. Sed sed diam venenatis, rutrum sem at, pulvinar nibh. Donec mollis ut orci eget ullamcorper. In hac habitasse platea dictumst. </p>
+<p> Here at Port Talbot Rock Climbing we pride ourselves in offfering rock climbing courses for beginners and competitors. We have courses ranging from a Level 1 difficulty all the way to a Level 8 difficulty. We also serve food and beverages and have any and all supplies you could ever need. Entry fee is £10 per visit or £25 per month membership, we hope you enjoy your time at Port Talbot Rock Climbing. </p>
 </div>
 
 <br><br>
